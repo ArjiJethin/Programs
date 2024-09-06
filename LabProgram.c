@@ -16,7 +16,7 @@ int main()
     {
         printf("Enter element %d: ", i + 1);
         scanf("%c", &arr[i]);
-        getchar();
+        getchar(); 
     }
 
     arr[size] = '\0';
