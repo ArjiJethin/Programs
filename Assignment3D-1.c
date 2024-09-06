@@ -7,7 +7,8 @@ int add(int A, int B)
     printf("Enter value for A:"); 
     scanf("%d",&A);
     printf("Enter value for B:");
-    scanf("%d",&B);*/
+    scanf("%d",&B);
+    printf("The Sum of the values A and B is: %d",A+B);*/
     return A+B;
 }
 
@@ -18,7 +19,8 @@ int sub(int A,int B)
     printf("Enter value for A:"); 
     scanf("%d",&A);
     printf("Enter value for B:");
-    scanf("%d",&B);*/
+    scanf("%d",&B);
+    printf("The difference between A and B is: %d",A-B);*/ 
     return A-B;
 }
 
@@ -30,7 +32,8 @@ int mul(int A, int B)
     printf("Enter value for A:"); 
     scanf("%d",&A);
     printf("Enter value for B:");
-    scanf("%d",&B);*/
+    scanf("%d",&B);
+    printf("The product of A and B is equal to:%d",A*B);*/
     return A*B;
 }
 
@@ -41,7 +44,8 @@ int div(int A, int B)
     printf("Enter value for A:"); 
     scanf("%d",&A);
     printf("Enter value for B:");
-    scanf("%d",&B);*/
+    scanf("%d",&B);
+    printf("The division of A and B is equal to:%d",A/B);*/
     return A/B;
 }
 
